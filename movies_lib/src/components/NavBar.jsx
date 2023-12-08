@@ -34,6 +34,11 @@ const NavBar = () => {
         <button type="submit">
           <BiSearchAlt2 />
         </button>
+        <h2>
+        <Link to="/home">
+          <span>ENTRAR / CADASTRO</span>
+        </Link>
+      </h2>
       </form>
     </nav>
   );
